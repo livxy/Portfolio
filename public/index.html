@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Icon not showing -->
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <script src="scripts/main.js" defer></script>
+    <title>- Aidans Portfolio -</title>
+</head>
+
+
+<!-- navigation bar -->
+<nav id="navbar">
+  <ul class="nav-links">
+    <li><a href="#welcome-section">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div></div>
+
+<!-- welcome section -->
+<section id="welcome-section">
+  <!-- typing text animation -->
+  <style>
+    .typewriter h1 {
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .15em;
+      animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+    }
+  </style>
+  
+  <div class="typewriter">
+    <h1>Hey, I'm Aidan 👋</h1>
+  </div>
+  <p>a web developer and backend developer in Python</p>
+</section>
+
+<!-- projects section -->
+<section id="projects">
+  <h2>Here are some of my projects</h2>
+  <div class="projects-grid">
+    <a href="https://github.com/livxy/Facebook-Marketplace-Vehicle-Scraper" target="_blank" class="project project-tile">
+      <img src="https://user-images.githubusercontent.com/67598470/201967975-23994744-3169-44fa-9c3a-a121192b35f3.png" alt="project" class="project-image">
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Facebook Marketplace Vehicle Scrapper
+        <span class="code">/&gt;</span>
+      </p>
+    </a>
+    <a href="https://github.com/livxy/Codewars-Kata-Exporter" target="_blank" class="project project-tile">
+      <img src="https://github.com/livxy/Codewars-Kata-Exporter/blob/master/Screenshot%202022-11-15%2011.07.47%20AM.png?raw=true" alt="project" class="project-image">
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Codewars Kata Exporter
+        <span class="code">/&gt;</span>
+      </p>
+    </a>
+    <a href="https://github.com/livxy/clocksite" target="_blank" class="project project-tile">
+      <img src="https://user-images.githubusercontent.com/67598470/200206578-22359a2f-9150-48a9-9689-b3a576138bfb.png" alt="project" class="project-image">
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Weather + Clock Front End Project
+        <span class="code">/&gt;</span>
+      </p>
+    </a>
+    <a href="https://github.com/livxy/StreamerSafetyNet" target="_blank" class="project project-tile">
+      <img src="https://github.com/livxy/StreamerSafetyNet/raw/master/.doc/images/amazon.png" alt="project" class="project-image">
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        StreamerSafetyNet
+        <span class="code">/&gt;</span>
+      </p>
+    </a>
+  </div>
+  <a href="https://github.com/livxy?tab=repositories" target="_blank" class="btn">See All &nbsp;<i class="fas fa-chevron-right"></i></a>
+</section>
+
+<!-- contact section -->
+<section id="contact">
+  <h2>Let's Work Together...</h2>
+
+  <div class="social-links">
+    <a href="https://github.com/livxy" target="_blank" id="profile-link"><i class="fab fa-github"></i> Github</a>
+  </div>
+</section>
+
+<footer>
+      <p class="foot">© 2022 Aidan's Portfolio</p>
+</footer>
