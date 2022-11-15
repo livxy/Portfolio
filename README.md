@@ -1,4 +1,4 @@
 # Portfoilo
 my portfolio site :)
 
-https://livxy.github.io/Portfoilo/public/site.html
+https://livxy.github.io/Portfoilo/public/index.html
