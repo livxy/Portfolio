@@ -163,9 +163,49 @@
     color: #fff;
     text-decoration: none;
     transition: transform 0.5s ease-out;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .social-links a:hover {
+    transform: translateY(5px);
+  }
+
+
+  /* wakatime section styling */
+  #wakatime {
+    background-color: var(--primary-color3);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #wakatime h2 {
+    font-size: 2rem;
+  }
+  
+  .wakatime {
+    display: flex;
+  }
+  
+  .wakatime a {
+    color: #fff;
+    transition: transform 0.5s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .column {
+    flex: 0%;
+    padding: 40px;
+  }
+  .wakatime a:hover {
     transform: translateY(5px);
   }
   
@@ -177,7 +217,6 @@
       font-size: 14px;
     }
   }
-
   .foot {
     margin: 0 auto;
     text-align: center;
