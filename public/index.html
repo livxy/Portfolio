@@ -52,11 +52,31 @@
         50% { border-color: orange; }
       }
     </style>
-    
+
+    <!-- snow animation -->
+    <div id="snow"></div>
+
     <div class="typewriter">
       <h1>Hey, I'm Aidan 👋</h1>
     </div>
     <p>a web developer and backend developer in Python</p>
+
+    <button id="snow-button" onclick="snow()">Toggle Snow</button>
+
+    <audio controls autoplay>
+      <source src="audio/Christmas.mp3" type="audio/mpeg">
+    </audio> 
+
+    <script>
+      function snow() {
+        var x = document.getElementById("snow");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
   </section>
 
   <!-- projects section -->
@@ -104,8 +124,11 @@
   <h2>Let's Work Together...</h2>
 
   <div class="social-links">
-    <a href="https://github.com/livxy" target="_blank" id="profile-link"><i class="fab fa-github"></i>&nbsp;Github</a>
-    <a href="https://discord.com/users/300291395883892737" target="_blank" ><img src="https://lanyard.cnrad.dev/api/300291395883892737" alt="Discord" width="auto" height="110px"></a>
+    <div class="github">
+      <a href="https://github.com/livxy" target="_blank" id="profile-link"><i class="fab fa-github fa-4x">
+      </i>GitHub</a>
+      </div>
+      <a href="https://discord.com/users/300291395883892737" target="_blank" ><img src="https://lanyard.cnrad.dev/api/300291395883892737" alt="Discord" width="auto" height="200px"></a>
   </div>
 </section>
 
