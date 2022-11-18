@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/typewriter.css">
+    
+    <!-- christmas -->
+    <link rel="stylesheet" href="christmas/style/snowman.css">
+    <link rel="stylesheet" href="christmas/style/christmastrees.css">
+    <script src="christmas/scripts/snowstorm.js"></script>    
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
@@ -26,38 +33,72 @@
   </ul>
 </nav>
 
+
   <body>
   <!-- welcome section -->
   <section id="welcome-section">
     <!-- typing text animation -->
     <style>
-      .typewriter h1 {
-        overflow: hidden;
-        border-right: .15em solid orange;
-        white-space: nowrap;
-        margin: 0 auto;
-        letter-spacing: .15em;
-        animation: 
-          typing 3.5s steps(40, end),
-          blink-caret .75s step-end infinite;
-      }
-
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-      }
-
-      @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: orange; }
-      }
     </style>
     
     <div class="typewriter">
       <h1>Hey, I'm Aidan 👋</h1>
     </div>
-    <p>a web developer and backend developer in Python</p>
-    <!-- Snow Toggle Button -->
+      <p>a web developer and backend developer in Python</p>
+    </div>
+    <!-- fix dogshit code below -->
+    <img src="christmas/assets/Christmas-Tree.gif" alt="christmas tree" id="christmas-tree">
+    <img src="christmas/assets/Christmas-Tree.gif" alt="christmas tree-1" id="christmas-tree-1">
+    <img src="christmas/assets/Christmas-Tree.gif" alt="christmas tree-2" id="christmas-tree-2">
+    <img src="christmas/assets/Christmas-Tree.gif" alt="christmas tree-3" id="christmas-tree-3">
+    <img src="christmas/assets/Christmas-Tree.gif" alt="christmas tree-4" id="christmas-tree-4">
+    <img src="christmas/assets/Christmas-Tree.gif" alt="christmas tree-5" id="christmas-tree-5">
+    <img src="christmas/assets/Christmas-Tree.gif" alt="christmas tree-6" id="christmas-tree-6">
+    <img src="christmas/assets/Christmas-Tree.gif" alt="christmas tree-7" id="christmas-tree-7">
+    <img src="christmas/assets/Christmas-Tree.gif" alt="christmas tree-8" id="christmas-tree-8">
+    <style>
+      #christmas-tree {
+        animation-name: shake;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes shake {
+        0% {
+          transform: translate(1px, 1px) rotate(0deg);
+        }
+        10% {
+          transform: translate(-1px, -2px) rotate(-1deg);
+        }
+        20% {
+          transform: translate(-3px, 0px) rotate(1deg);
+        }
+        30% {
+          transform: translate(3px, 2px) rotate(0deg);
+        }
+        40% {
+          transform: translate(1px, -1px) rotate(1deg);
+        }
+        50% {
+          transform: translate(-1px, 2px) rotate(-1deg);
+        }
+        60% {
+          transform: translate(-3px, 1px) rotate(0deg);
+        }
+        70% {
+          transform: translate(3px, 1px) rotate(-1deg);
+        }
+        80% {
+          transform: translate(-1px, -1px) rotate(1deg);
+        }
+        90% {
+          transform: translate(1px, 2px) rotate(0deg);
+        }
+        100% {
+          transform: translate(1px, -2px) rotate(-1deg);
+        }
+      }
+    </style>
+
   </section>
 
   <!-- projects section -->

@@ -1,0 +1,267 @@
+.snowman *{
+  position: absolute;
+}
+.snowman {
+  position: relative;
+  margin: 100px;
+  display: block;
+  margin: 10% 10%;
+  width: 200px;
+  height: 200px;
+}  
+.bottom {
+  top: 88%;
+	left: -7%;
+	background: white;
+	width: 120%;
+	height: 120%;
+	border-radius: 50%;
+}  
+.head {
+  top: 25%;
+	left: 5%;
+	background: white;
+	width: 88%;
+	height: 88%;
+	border-radius: 50%;
+}
+.right-eye {
+	top: 45%;
+	left: 62%;
+	background: black;
+	width: 15%;
+	height: 15%;
+	border-radius: 50%;
+}  
+.left-eye {
+	top: 35%;
+	left: 21%;
+	background: black;
+	width: 15%;
+	height: 15%;
+	border-radius: 50%;
+}  
+.nose {
+  -webkit-clip-path: polygon(70% 51%, 70% 72%, 0 60%);
+  clip-path: polygon(70% 50%, 70% 72%, 0 60%);
+  top: -205%;
+	left:-250%;  
+	width: 10%;
+	height: 11rem;
+	border-right: 10rem solid #d73d00;
+}
+.snowman-mouth-1{
+	top: 72%;
+	left: 21%;
+	background: black;
+	width: 5%;
+	height: 5%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.snowman-mouth-2{
+	top: 78%;
+	left: 29%;
+	background: black;
+	width: 5%;
+	height: 5%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.snowman-mouth-3{
+	top: 80%;
+	left: 40%;
+	background: black;
+	width: 5%;
+	height: 5%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.snowman-mouth-4{
+	top: 79%;
+	left: 51%;
+	background: black;
+	width: 5%;
+	height: 5%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.snowman-mouth-5{
+	top: 74%;
+	left: 62%;
+	background: black;
+	width: 5%;
+	height: 5%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.snowman-button-1{
+	top: 115%;
+	left: 21%;
+	background: black;
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.snowman-button-2{
+	top: 130%;
+	left: 14%;
+	background: black;
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.snowman-button-3{
+	top: 147%;
+	left: 11%;
+	background: black;
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.snowman-button-4{
+	top: 165%;
+	left: 15%;
+	background: black;
+	width: 8%;
+	height: 8%;
+	border-radius: 50%;
+	z-index: 1;
+}
+.left-arm{
+	top: 108%;
+	left: -39%;
+	background: #4c2900;
+	width: 44%;
+	height: 7%;
+	border-radius: 50%;
+	transform: rotate(20deg);
+}
+.left-mitten-1{
+	top: 95%;
+	left: -45%;
+	background:beige;
+	width: 24%;
+	height: 20%;
+	border-radius: 50% 36% 36% 50%;
+	transform: rotate(20deg);
+	z-index: 1;
+}
+.left-mitten-2{
+	top: 92%;
+	left: -34%;
+	background: beige;
+	width: 13%;
+	height: 8%;
+	border-radius: 50%;
+	transform: rotate(60deg);
+}
+.right-arm{
+  top: 107%;
+	left: 84%;
+	background: #4c2900;
+	width: 58%;
+	height: 8%;
+	border-radius: 50%;
+	transform: rotate(-20deg);
+}
+.right-mitten-1{
+	top: 93%;
+	left: 122%;
+	background:beige;
+	width: 24%;
+	height: 20%;
+	border-radius: 36% 50% 50% 36%;
+	transform: rotate(-20deg);
+	z-index: 1;
+}
+.right-mitten-2{
+	top: 91%;
+	left: 123%;
+	background: beige;
+	width: 13%;
+	height: 8%;
+	border-radius: 50%;
+	transform: rotate(-60deg);
+}
+.hat-1{
+	top: -24%;
+	left: 33%;
+	background: #1e1ba1;
+	width: 55%;
+	height: 44%;
+	border-radius: 15%;
+	transform: rotate(-80deg);
+	z-index: 1;
+}
+.hat-2{
+	top: -8%;
+	left: 52%;
+	background: navy;
+	width: 7%;
+	height: 60%;
+	border-radius: 20%;
+	transform: rotate(-80deg);
+	z-index: 1;
+}
+.hat-3{
+	top: -8%;
+	left: 55%;
+	background: #791919;
+	width: 5%;
+	height: 44%;
+	transform: rotate(-80deg);
+	z-index: 5;
+}
+.wind{
+	width: 100%;
+	height: 100%;
+  animation-duration: 3s;
+  animation-name: hat;
+  animation-iteration-count: infinite;
+  transform-origin:0% 0%;
+  animation-timing-function: linear;
+	z-index: 10;
+}
+@keyframes hat{
+  10% {
+	transform: rotateY(10deg);
+  }
+  20% {
+	transform: rotateY(20deg);
+  }
+  30% {
+	transform: rotateY(10deg);
+  } 
+  40% {
+	transform: rotateY(15deg);
+  }  
+}
+.scarf-1{
+	top: 89%;
+	left: 17%;
+	background: #c21a1a;
+	width: 68%;
+	height: 15%;
+	border-radius: 10%;
+  z-index: 1;
+}
+.scarf-2{
+	top: 89%;
+	left: 63%;
+	background: #ac0000;
+	width: 15%;
+	height: 51%;
+	border-radius: 10%;
+}
+.scarf-3{
+	top: 89%;
+	left: 47%;
+	background: #950101;
+	width: 15%;
+	height: 28%;
+	border-radius: 10%;
+}

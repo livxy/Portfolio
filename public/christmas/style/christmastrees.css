@@ -1,0 +1,99 @@
+#christmas-tree {
+    position: absolute;
+    top: 435px;
+    left: 0;
+    z-index: 1;
+  }
+  #christmas-tree-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #christmas-tree-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #christmas-tree-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #christmas-tree-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #christmas-tree-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #christmas-tree-6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #christmas-tree-7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #christmas-tree-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #christmas-tree {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  #christmas-tree-1 {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  #christmas-tree-2 {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  #christmas-tree-3 {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  #christmas-tree-4 {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  #christmas-tree-5 {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  #christmas-tree-6 {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  #christmas-tree-7 {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  #christmas-tree-8 {
+    animation-name: shake;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
